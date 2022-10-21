@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +11,15 @@
     <header>
         <a class="head-logo"> <span class="Blue-fonts">Web</span>Studio</a>
         <nav>
-            <a href="">Студія</a>
-            <a href="">Портфоліо</a>
-            <a href="">Контакти</a>
+            <ul>
+                <li><a href="">Студія</a></li>
+                <li><a href="">Портфоліо</a></li>
+                <li><a href="">Контакти</a></li>
+            </ul>
         </nav>
         <ul>
             <li><a href="tel:380961111111" class="contact_link">+38 096 111 11 11</a></li>
-            <li><a href="mailto:WebStudio" class="contact_link">info@devstudio.com</a></li>
+            <li><a href="mailto:info@devstudio.com" class="contact_link">info@devstudio.com</a></li>
         </ul>
     </header>
     <!-- Main -->
@@ -27,35 +29,38 @@
             <button type="button" >Замовити послугу</button>
         </section>
         <section class="about">
-            <div class="info">
-                <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-            </div>
-            <div class="info">
-                <h4>ПУНКТУАЛЬНІСТЬ</h4>
-                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-            </div>
-            <div class="info">
-                <h4>ПЛАНУВАННЯ</h4>
-                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-            </div>
-            <div class="info">
-                <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-            </div>
+            <h2>Про нас</h2>
+            <ul>
+                <li class="info">
+                    <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                </li>
+                <li class="info">
+                    <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                </li>
+                <li class="info">
+                    <h3>ПЛАНУВАННЯ</h3>
+                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+                <li class="info">
+                    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </li>
+            </ul>
         </section>
 
         <section class="about-photo">
             <h2>Чим ми займаємося</h2>
             <ul>
                 <li>
-                    <img src="./images/box1.jpg" alt="Writing code" class="box" width="294">
+                    <img src="./images/box1.jpg" alt="Пише код" class="box" width="294">
                 </li>
                 <li>
-                    <img src="./images/box2.jpg" alt="Look for phone" class="box" width="294">
+                    <img src="./images/box2.jpg" alt="Дивиться на телефон" class="box" width="294">
                 </li>
                 <li>
-                    <img src="./images/box3.jpg" alt="Choose color" class="box" width="294">
+                    <img src="./images/box3.jpg" alt="Обирає колір" class="box" width="294">
                 </li>
             </ul>
         </section>
@@ -64,23 +69,23 @@
             <h2>Наша команда</h2>
             <ul>
                 <li class="team-photo">
-                    <img src="./images/team1.jpg" alt="Igor" width="260">
-                    <h5>Ігор Дем'яненко</h5>
+                    <img src="./images/team1.jpg" alt="Фото Игора" width="270">
+                    <h3>Ігор Дем'яненко</h3>
                     <p>Product Designer</p>
                 </li>
                 <li class="team-photo">
-                    <img src="./images/team2.jpg" alt="Olga" width="260">
-                    <h5>Ольга Рєпіна</h5>
+                    <img src="./images/team2.jpg" alt="Фото Ольги" width="270">
+                    <h3>Ольга Рєпіна</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li class="team-photo">
-                    <img src="./images/team3.jpg" alt="Mikola" width="260">
-                    <h5>Микола Тарасов</h5>
+                    <img src="./images/team3.jpg" alt="Фото Миколи" width="270">
+                    <h3>Микола Тарасов</h3>
                     <p>Marketing</p>
                 </li>
                 <li class="team-photo">
-                    <img src="./images/team4.jpg" alt="Mihaylo" width="260">
-                    <h5>Михайло Єрмаков</h5>
+                    <img src="./images/team4.jpg" alt="Фото Михайла" width="270">
+                    <h3>Михайло Єрмаков</h3>
                     <p>UI Designer</p>
                 </li>
             </ul>
@@ -89,11 +94,14 @@
     <!-- Footer -->
     <footer>
         <a class="footer-logo"> <span class="Blue-fonts">Web</span>Studio</a>
-        <ul>
-            <li> <address>м. Київ, пр-т Лесі Українки, 26</address></li>
-            <li><a href="tel:380961111111" class="contact_link">+38 096 111 11 11</a></li>
-            <li><a href="mailto:WebStudio" class="contact_link">info@devstudio.com</a></li>
-        </ul>
+        <address class="contacts">
+            <ul>
+                <li><a href="https://goo.gl/maps/9icfDptYdTyMUopS7">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="tel:380961111111" class="contact_link">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="contact_link">info@devstudio.com</a></li>
+            </ul>
+        </address>
+        
     </footer>
 </body>
 </html>
